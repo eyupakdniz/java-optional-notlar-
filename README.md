@@ -24,7 +24,7 @@ Not: Bu iki methoddan sonra genellikle `get()` methodu kullanılır.
 `ifPresent()` => optional içindeki variable null değil ise çalıştırılacak bloktur. Void methoddur.<br>
 `maybeInteger.ifPresent(user -> { /* ...do something with number... */ });`<br>
 
-`ifPresentOrElse()` => java 9 ile geldi. iki tane lambda çalışıtırlabilir, ikinci orElse için kullanırızı ve parametresi "()" dir.<br>
+`ifPresentOrElse()` => java 11 ile geldi. iki tane lambda çalışıtırlabilir.<br>
 
 `maybeInteger.ifPresentOrElse(`<br>
     `   number -> { /* ...do something with number... */ },`<br>
