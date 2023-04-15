@@ -38,7 +38,6 @@ Not: Bu iki methoddan sonra genellikle `get()` methodu kullanılır.
  `orElseThrow()` 
 - `orElse()` benzer farkı kendi exception'umuzu oluşturmamızı sağlar. 
 - Java 10 ile sunuludu.
-- 
 - Optional boşsa iki şekilde hata fırlatır
   - `get()` methodu kullanmadan `NoSuchElementException` hatası vermemizi sağlar.
   - Optional boşsa herhangi bir `Throwable` nesneyi oluşturan bir Supplier'ı kabul eder ve onu atar.<br>
