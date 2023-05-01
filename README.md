@@ -7,7 +7,7 @@
 - Primitive type optional tarafında kabul edilmez nesne olmak zorunda
 
 ## Optional nesne oluşturma
-`empty()` => Boş nesne oluşturulur<br>
+`empty()` => Boş nesne oluşturulur<br>  
 `Optional<Integer> maybeInteger = Optional.empty();`<br>
 `of()` => Bir nesnenin değeri olduğundan eminisek kullanılır yoksa NullPointerException hatası ile karşılaşılır<br>
 `Integer a = null;`<br>
