@@ -1,4 +1,4 @@
-# java-optional-notlar-
+# java-optional-notlar
 ## Optional
 - Java 8 ile geldi. son halini java 11 ile aldı
 - Null dönmek pahalıdır bundan dolayı `NullPointerException`'ları en aza indirgemek.
